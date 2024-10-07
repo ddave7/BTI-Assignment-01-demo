@@ -5,11 +5,11 @@ const HTTP_PORT = process.env.PORT || 8080; // assign a port
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/views/home.html'));
+    res.sendFile(path.join(__dirname, '/views/home.html'));
   });
 
   app.get('/about', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/views/about.html'));
+    res.sendFile(path.join(__dirname, '/views/about.html'));
   });
 
 // start the server on the port and output a confirmation to the console
