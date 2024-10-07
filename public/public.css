@@ -1,28 +1,58 @@
-/* public/public.css */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    color: #333;
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  p {
-    text-align: center;
-    font-size: 18px;
-  }
-  
-  a {
-    color: #0070f3;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 700;
+  color: #0070f3;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 2.5rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  color: #555;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add some padding to the body content */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #eaeff3;
+}
+
+/* Center the content in the middle of the page */
+.container {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
